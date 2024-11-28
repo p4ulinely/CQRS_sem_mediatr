@@ -1,4 +1,4 @@
-﻿namespace CQRS_sem_mediatr.Commands
+﻿namespace Domain.Commands
 {
     public interface ICommand : IBaseCommand
     {

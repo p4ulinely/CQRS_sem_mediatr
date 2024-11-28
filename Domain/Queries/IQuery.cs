@@ -1,4 +1,4 @@
-﻿namespace CQRS_sem_mediatr.Queries
+﻿namespace Domain.Queries
 {
     public interface IQuery<TResponse>
     {

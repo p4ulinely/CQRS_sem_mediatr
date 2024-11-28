@@ -1,4 +1,4 @@
-﻿using CQRS_sem_mediatr.Commands;
+﻿using Domain.Commands;
 using System.Threading;
 using System.Threading.Tasks;
 

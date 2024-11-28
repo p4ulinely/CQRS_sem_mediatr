@@ -4,6 +4,11 @@ namespace Domain.Entities
 {
     public class Order
     {
+        public Guid Id { get; protected set; }
+        public string CustomerName { get; protected set; }
+        public int Status { get; protected set; }
+        public DateTime Date { get; protected set; }
+
         public Order(Guid id, string customerName, int status, DateTime date)
         {
             Id = id;
@@ -11,11 +16,6 @@ namespace Domain.Entities
             Status = status;
             Date = date;
         }
-
-        public Guid Id { get; protected set; }
-        public string CustomerName { get; protected set; }
-        public int Status { get; protected set; }
-        public DateTime Date { get; protected set; }
 
         public void Validate()
         {

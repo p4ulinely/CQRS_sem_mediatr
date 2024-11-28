@@ -1,6 +1,6 @@
-using CQRS_sem_mediatr.Commands;
+using Domain.Commands;
 using CQRS_sem_mediatr.CommandsHandlers;
-using CQRS_sem_mediatr.Queries;
+using Domain.Queries;
 using CQRS_sem_mediatr.QueriesHandlers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

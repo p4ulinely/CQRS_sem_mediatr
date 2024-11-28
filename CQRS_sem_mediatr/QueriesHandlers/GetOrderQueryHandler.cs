@@ -1,5 +1,5 @@
-﻿using CQRS_sem_mediatr.Models;
-using CQRS_sem_mediatr.Queries;
+﻿using Domain.Models;
+using Domain.Queries;
 using CQRS_sem_mediatr.Services;
 using Domain.Entities;
 using System;

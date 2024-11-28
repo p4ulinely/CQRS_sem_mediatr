@@ -1,4 +1,4 @@
-﻿namespace CQRS_sem_mediatr.Models
+﻿namespace Domain.Models
 {
     public class CustomResult<T>
     {

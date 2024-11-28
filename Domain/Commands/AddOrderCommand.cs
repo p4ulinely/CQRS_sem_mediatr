@@ -1,9 +1,8 @@
 ﻿using Domain.Entities;
-using CQRS_sem_mediatr.Models;
+using Domain.Models;
 using System;
-using System.Text.Json.Serialization;
 
-namespace CQRS_sem_mediatr.Commands
+namespace Domain.Commands
 {
     public class AddOrderCommand : ICommand<CustomResult<AddOrderCommand>>
     {
