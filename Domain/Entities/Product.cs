@@ -12,5 +12,14 @@ namespace Domain.Entities
             Id = id;
             Description = description;
         }
+
+        public void Validate()
+        {
+            if (string.IsNullOrEmpty(Description))
+                throw new Exception("Description é obrigatório");
+        }
+
+        public void SetId(Guid id)
+            => Id = id;
     }
 }
