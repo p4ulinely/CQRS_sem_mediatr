@@ -14,14 +14,5 @@ namespace Domain.Commands
         {
             return new Product(command.Id, command.Description);
         }
-
-        //public static implicit operator AddProductCommand(Product entity)
-        //{
-        //    return new AddProductCommand()
-        //    {
-        //        Id = entity.Id,
-        //        Description = entity.Description
-        //    };
-        //}
     }
 }

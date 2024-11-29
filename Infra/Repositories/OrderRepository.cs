@@ -14,7 +14,7 @@ namespace Infra.Repositories
             return Task.CompletedTask;
         }
 
-        public Task<Order> GetOrderByIdAsync(Guid id)
+        public Task<Order> GetByIdAsync(Guid id)
         {
             return Task.FromResult(Orders.Find(x => x.Id == id));
         }

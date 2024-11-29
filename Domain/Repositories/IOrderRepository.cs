@@ -7,6 +7,6 @@ namespace Domain.Repositories
     public interface IOrderRepository
     {
         Task Add(Order order);
-        Task<Order> GetOrderByIdAsync(Guid id);
+        Task<Order> GetByIdAsync(Guid id);
     }
 }

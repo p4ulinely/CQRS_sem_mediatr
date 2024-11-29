@@ -18,6 +18,6 @@ namespace CQRS_sem_mediatr.Services
             => _orderRepository.Add(order);
 
         public async Task<Order> GetOrderByIdAsync(Guid id)
-            => await _orderRepository.GetOrderByIdAsync(id);
+            => await _orderRepository.GetByIdAsync(id);
     }
 }
